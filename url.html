@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <a target="_blank" href="https://www.w3schools.com/">dfdfd</a>
+      <a href="/list">dfdf</a>
+      <a href="https://en.wikipedia.org/wiki/JavaScript">aaa</a>
+      <a target="_self" href="https://example.com/">aaaa</a>
+    </div>
+    <script>
+      let url = /https?:\/\/[^"]*/g,
+        text = document.getElementById("wrap").innerHTML;
+
+      alert(text.match(url).join("\n"));
+    </script>
+  </body>
+</html>
