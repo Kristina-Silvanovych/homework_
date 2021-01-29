@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "model": "Xiaomi Redmi 9",
+    "price": "4500",
+    "imageCover": "https://i.citrus.ua/uploads/shop/b/f/bfc300503a9aa8e64c6d7bfbaa9ec415.jpg"
+  },
+  {
+    "id": 3,
+    "model": "Samsung Galaxy M21",
+    "price": "5000",
+    "imageCover": "https://i.citrus.ua/uploads/shop/3/3/33a0396c7c5d5526252dd3f79cc6b619.jpg"
+
+  },
+  {
+    "id": 5,
+    "model": "Apple iPhone 12",
+    "price": "30000",
+    "imageCover": "https://i.citrus.ua/uploads/shop/8/3/839452defe42b04a09b30f1915720093.jpg"
+  }
+]
